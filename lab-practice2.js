@@ -121,11 +121,11 @@ console.log("***********************************")
 
 
 function calculate(length, width, height, percentage) {
-    let zapremina = length * width * height;
-    let zapreminaVode = zapremina * 0.001;
-    let zapreminaPeska = percentage / 100;
-    let litaraPotrebno = zapreminaVode * (1 - zapreminaPeska);
-    console.log(litaraPotrebno);
+    let volume = length * width * height;
+    let volumeWater = volume * 0.001;
+    let volumeSand = percentage / 100;
+    let litersNeeded = volumeWater * (1 - volumeSand);
+    console.log(litersNeeded);
 }
 
 calculate(85, 75, 47, 17);
