@@ -1,4 +1,4 @@
-/*function solve(first, second, third) {
+function solve(first, second, third) {
     
     let firstSeconds = Number(first);
     let secondSeconds = Number(second);
@@ -43,5 +43,3 @@ function solve(num) {
     console.log(bonus);
     console.log(number + bonus);
 }
-
-*/
