@@ -16,6 +16,10 @@ solve(50, 50, 49);
 
 
 
+console.log("*********************")
+
+
+
 function bonus (points) {
 
     let number = Number(points);
@@ -42,6 +46,9 @@ function bonus (points) {
 bonus(20);
 
 
+console.log("*********************")
+
+
 function solve(hours, minutes) {
     
     let totalMinutes = hours * 60 + minutes;
@@ -53,6 +60,9 @@ function solve(hours, minutes) {
 }
 
 solve(0, 0o1);
+
+
+console.log("*********************")
 
 
 function solve(price, puzzles, dolls, bears, minions, trucks) {
@@ -103,6 +113,8 @@ function solve(price, puzzles, dolls, bears, minions, trucks) {
 solve(40.8, 20, 25, 30, 50, 10);
 
 
+console.log("*********************")
+
 
 function solve(budget, people, pricePerClothes) {
 
@@ -132,6 +144,8 @@ function solve(budget, people, pricePerClothes) {
 
 solve(15437.62, 186, 57.99);
 
+
+console.log("*********************")
 
 
 function calculate(budget, videoCards, processors, RAMs)  {
@@ -166,6 +180,8 @@ function calculate(budget, videoCards, processors, RAMs)  {
 
 calculate(900, 2, 1, 3);
 
+
+console.log("*********************")
 
 
 
