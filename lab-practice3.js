@@ -1,31 +1,3 @@
-function hello() {
-    console.log("Hello World");
-}
-
-hello();
-
-function numbers() {
-    console.log(1);
-    console.log(2);
-    console.log(3);
-    console.log(4);
-    console.log(5);
-    console.log(6);
-    console.log(7);
-    console.log(8);
-    console.log(9);
-    console.log(10);
-}
-    
-numbers();
-
-function solve (a) {
-    console.log(a * a);
-}
-
-solve(5);
-
-
 function inchToCm(inch) {
     let cm = inch * 2.54;
     console.log(cm);
