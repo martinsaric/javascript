@@ -1,4 +1,4 @@
-/*function dan(redniBrojDana) {
+function dan(redniBrojDana) {
 
     if(redniBrojDana === 1) {
         console.log("Monday")
@@ -57,6 +57,8 @@ function solve(day) {
 
 
 
+console.log("*********************")
+
 
 
 function processFoodOrder(foodType) {
@@ -95,6 +97,7 @@ function processFoodOrder(foodType) {
 processFoodOrder("pizza");
 
 
+console.log("*********************")
 
 
 function preporuciKnjigu(mood) {
@@ -133,4 +136,3 @@ function preporuciKnjigu(mood) {
 preporuciKnjigu("srecno");
 
 
-*/
